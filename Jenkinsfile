@@ -28,7 +28,7 @@ pipeline{
     stage('Docker image build'){
       steps{
         echo 'docker iamage build'
-        sh 'sudo docker build -t project2 .'
+        sh 'sudo docker build -t project2:1.0 .'
       }
     }
     stage('Docker container create'){
