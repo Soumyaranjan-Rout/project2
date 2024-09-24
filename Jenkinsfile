@@ -2,7 +2,7 @@ pipeline{
   stages{
     stage('Git repo checkout'){
       steps{
-        git utl: 'https://github.com/Soumyaranjan-Rout/project2.git'
+        git url: 'https://github.com/Soumyaranjan-Rout/project2.git'
         echo 'Git checkout'
       }
     }
