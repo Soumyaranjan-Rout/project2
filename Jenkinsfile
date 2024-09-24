@@ -34,7 +34,7 @@ pipeline{
     stage('Docker container create'){
       steps{
         echo 'Container creation'
-        sh 'sudo docker run -td -p 8081:8080 --name Project2 project2'
+        sh 'sudo docker run -td -p 8081:8080 --name Project2 project2:1.0'
       }
     }
   }
